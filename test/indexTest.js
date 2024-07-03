@@ -2,7 +2,6 @@ require ( './helpers.js' );
 
 const chai = require('chai')
 const expect = chai.expect;
-
 describe('index.js', function() {
   describe('multiply', function() {
     it("is an equation whose multiplied results will equal 62", function() {
@@ -11,6 +10,7 @@ describe('index.js', function() {
       expect(multiply).to.eq(62)
     });
   });
+
   describe('random', function() {
     it("generates a random integer greater than 0", function() {
       expect(Number.isInteger(random)).to.be.true
