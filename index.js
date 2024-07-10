@@ -16,12 +16,9 @@ const mod = num3 % num4;
 console.log(mod); 
 ;
 
+// const highestNumber = max.Math(2, 4, 5, 9, 20); 
+// const max=(highestNumber);
 
 
-const highestNumber = Math.max(2, 5, 10, 15, 20);
-console.log(highestNumber); 
-
-
-
-
-
+Math.max=highestNumber.Math(2, 4, 10, 5 , 20 );
+console.max(highestNumber);
